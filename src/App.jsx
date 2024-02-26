@@ -1,14 +1,15 @@
 // App.jsx
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import CustomNavbar from './components/Header/CustomNavbar';
-
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
-      Hello
+      <Navbar />
     </>
+
+
   );
 }
 
