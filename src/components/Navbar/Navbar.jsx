@@ -4,11 +4,16 @@ import './navbar.scss'
 
 const Navbar = () => {
     return (
-        <div>
+        <section className="navBarSection">
+            <header className="header flex">
+                <div className="logoDiv">
+                    <a href="" className="logo flex">
+                        <h1>MPCL micropoint</h1>
+                    </a>
+                </div>
+            </header>
 
-            <h1>Navbar</h1>
-
-        </div>
+        </section>
     )
 }
 export default Navbar
