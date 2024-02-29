@@ -1,16 +1,13 @@
 // App.jsx
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import Main from './components/Main/main';
+import Cards from './components/Home/Cards/Cards';
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Footer />
-      <Main/> */}
+      <Cards/>
     </>
 
 
